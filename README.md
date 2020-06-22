@@ -44,7 +44,7 @@ This is the final Capstone project of the [Udacity C++ Nanodegree Program](https
 3. Compile: `cmake .. && make`
 4. Run it: `./SnakeGame`.
 
-## Meets Rubric
+## Project Specification
 
 ### Compiling and Testing
 - The submission must compile and run.
