@@ -1,0 +1,7 @@
+numberOfBoosters 10
+numberOfObstacles 10
+kFramesPerSecond 60
+kScreenWidth 640
+kScreenHeight 640
+kGridWidth 32
+kGridHeight 32 
