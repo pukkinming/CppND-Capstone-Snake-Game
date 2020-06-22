@@ -65,5 +65,14 @@ This is the final Capstone project of the [Udacity C++ Nanodegree Program](https
 - Class constructors utilize member initialization lists.
   - Examples include [game.cpp](./src/game.cpp#L16) and [coordinate.h](./src/coordinate.h#L8).
 - Classes encapsulate behavior.
-  - Examples include boosters.h ([private variable](./src/boosters.h#L24), [getter](./src/boosters.h#L20)).
-- 
+  - Examples include [fileUtils.h](./src/fileUtils.h#L35).
+- Classes follow an appropriate inheritance hierarchy.
+  - Examples include [boosters.h](./src/boosters.h#L8).
+
+### Memory Management
+- The project makes use of references in function declarations.
+  - Examples include [gameObjects.h](./src/gameObjects.h#L19) for the boosters and obstacles objects.
+- The project uses destructors appropriately.
+  - Examples include [renderer.h](./src/renderer.h#L19).
+- The project uses smart pointers instead of raw pointers.
+  - Examples include [gameObjects.h](./src/gameObjects.h#L23).
