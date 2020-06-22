@@ -71,7 +71,7 @@ This is the final Capstone project of the [Udacity C++ Nanodegree Program](https
 
 ### Memory Management
 - The project makes use of references in function declarations.
-  - Examples include [gameObjects.h](./src/gameObjects.h#L19) for the boosters and obstacles objects.
+  - Examples include [game.h](./src/game.h#L57) and [controller.h](./src/controller.h#L11).
 - The project uses destructors appropriately.
   - Examples include [renderer.h](./src/renderer.h#L19).
 - The project uses smart pointers instead of raw pointers.
