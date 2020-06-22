@@ -1,20 +1,20 @@
 // Copyright 2020 Frank Puk
 
 #include <memory>
-#include "obstacles.h"
+#include "gameObjects.h"
 #include "coordinate.h"
 
-Obstacles::Obstacles() {
+GameObjects::GameObjects() {
     // Initialising unique pointer
     _coordinates =
         std::unique_ptr<std::vector<Coordinate>>(new std::vector<Coordinate>);
 }
 
-void Obstacles::addCoordinate(const Coordinate &&coordinate) {
+void GameObjects::addCoordinate(const Coordinate &&coordinate) {
     _coordinates->emplace_back(coordinate);
 }
 
-bool Obstacles::ObstacleCell(const Coordinate &&coordinate) {
+bool GameObjects::Cell(const Coordinate &&coordinate) {
     for (const Coordinate &_coordinate : *_coordinates) {
         if (_coordinate == coordinate) {
             return true;
@@ -23,11 +23,11 @@ bool Obstacles::ObstacleCell(const Coordinate &&coordinate) {
     return false;
 }
 
-int Obstacles::count() const {
+int GameObjects::count() const {
     return _coordinates->size();
 }
 
-const std::vector<Coordinate> &Obstacles::getCoordinates() const {
+const std::vector<Coordinate> &GameObjects::getCoordinates() const {
     // Copy will not be made due to RVO
     return *_coordinates;
 }

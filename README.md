@@ -2,6 +2,8 @@
 
 This is the final Capstone project of the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses.
 
+## Game Screens
+
 <img src="starting_screen.png"/>
 <br/>
 <img src="snake_game.png"/>
@@ -13,8 +15,7 @@ This is the final Capstone project of the [Udacity C++ Nanodegree Program](https
 4. Parameters such as number of obstacles and boosters can be configured from [gameConfig/config.txt](./gameConfig/config.txt) file.
 5. A starting screen has been added.
 6. The game can be reset in the starting screen.
-
-<img src="my_game.png"/>
+7. The game can be paused if you press `Esc`. 
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
@@ -44,13 +45,25 @@ This is the final Capstone project of the [Udacity C++ Nanodegree Program](https
 4. Run it: `./SnakeGame`.
 
 ## Meets Rubric
-1. The project demonstrates an understanding of C++ functions and control structures.
-2. The project reads data from a file and process the data, or the program writes data to a file.
-3. The project uses Object Oriented Programming techniques.
-4. Classes use appropriate access specifiers for class members.
-5. Class constructors utilize member initialization lists.
-6. Classes abstract implementation details from their interfaces.
-7. Classes encapsulate behavior.
-8. The project makes use of references in function declarations.
-9. The project uses move semantics to move data, instead of copying it, where possible.
-10. The project uses smart pointers instead of raw pointers.
+
+### Compiling and Testing
+- The submission must compile and run.
+
+### Loops, Functions, I/O
+- The project demonstrates an understanding of C++ functions and control structures.
+  - The code starts from [main.cpp](./src/main.cpp) and uses functions along the way.
+- The project reads data from a file and process the data, or the program writes data to a file.
+  - It reads data from the config file ([header](./src/fileUtils.h), [cpp](./src/fileUtils.cpp)).
+- The project accepts user input and processes the input.
+  - It has a welcoming page and allows the player to choose to play, reset, or quit the game ([welcoming page](#game-screens)).
+  
+### Object Oriented Programming
+- The project uses Object Oriented Programming techniques.
+  - Please visit the `src` folder and take a look. The project code is built on objects such as controller, snake, obstacles, and renderer. 
+- Classes use appropriate access specifiers for class members.
+  - Please visit the `src` folder and take a look.
+- Class constructors utilize member initialization lists.
+  - Examples include [game.cpp](./src/game.cpp#L16) and [coordinate.h](./src/coordinate.h#L8).
+- Classes encapsulate behavior.
+  - Examples include boosters.h ([private variable](./src/boosters.h#L24), [getter](./src/boosters.h#L20)).
+- 

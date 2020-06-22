@@ -123,13 +123,13 @@ void Game::Update() {
   int new_y = static_cast<int>(snake.head_y);
 
   /// Is the new cell an obstacle.
-  if ( _obstacles->ObstacleCell(Coordinate(new_x, new_y)) ) {
+  if ( _obstacles->Cell(Coordinate(new_x, new_y)) ) {
     snake.alive = false;
     return;
   }
 
   /// Is the new cell a booster cell.
-  if (_boosters->BoosterCell(Coordinate(new_x, new_y))) {
+  if (_boosters->Cell(Coordinate(new_x, new_y))) {
     snake.speed += 0.01;
     _boosters->deleteBoosterCellAt(Coordinate(new_x, new_y));
     return;
@@ -190,7 +190,7 @@ void Game::PlaceBoosters() {
     auto foodExistsAtThisCell = food.x == x && food.y == y;
 
     auto boosterExistsAtThisCell =
-      _boosters->BoosterCell(Coordinate(x, y));
+      _boosters->Cell(Coordinate(x, y));
     if (!snake.SnakeCell(x, y)
       && !foodExistsAtThisCell && !boosterExistsAtThisCell) {
       _boosters->addCoordinate(Coordinate(x, y));

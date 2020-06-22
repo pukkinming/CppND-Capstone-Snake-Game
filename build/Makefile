@@ -234,6 +234,33 @@ src/game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/src/game.cpp.s
 .PHONY : src/game.cpp.s
 
+src/gameObjects.o: src/gameObjects.cpp.o
+
+.PHONY : src/gameObjects.o
+
+# target to build an object file
+src/gameObjects.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/src/gameObjects.cpp.o
+.PHONY : src/gameObjects.cpp.o
+
+src/gameObjects.i: src/gameObjects.cpp.i
+
+.PHONY : src/gameObjects.i
+
+# target to preprocess a source file
+src/gameObjects.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/src/gameObjects.cpp.i
+.PHONY : src/gameObjects.cpp.i
+
+src/gameObjects.s: src/gameObjects.cpp.s
+
+.PHONY : src/gameObjects.s
+
+# target to generate assembly for a file
+src/gameObjects.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/src/gameObjects.cpp.s
+.PHONY : src/gameObjects.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -260,33 +287,6 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
-
-src/obstacles.o: src/obstacles.cpp.o
-
-.PHONY : src/obstacles.o
-
-# target to build an object file
-src/obstacles.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/src/obstacles.cpp.o
-.PHONY : src/obstacles.cpp.o
-
-src/obstacles.i: src/obstacles.cpp.i
-
-.PHONY : src/obstacles.i
-
-# target to preprocess a source file
-src/obstacles.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/src/obstacles.cpp.i
-.PHONY : src/obstacles.cpp.i
-
-src/obstacles.s: src/obstacles.cpp.s
-
-.PHONY : src/obstacles.s
-
-# target to generate assembly for a file
-src/obstacles.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/src/obstacles.cpp.s
-.PHONY : src/obstacles.cpp.s
 
 src/renderer.o: src/renderer.cpp.o
 
@@ -363,12 +363,12 @@ help:
 	@echo "... src/game.o"
 	@echo "... src/game.i"
 	@echo "... src/game.s"
+	@echo "... src/gameObjects.o"
+	@echo "... src/gameObjects.i"
+	@echo "... src/gameObjects.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/obstacles.o"
-	@echo "... src/obstacles.i"
-	@echo "... src/obstacles.s"
 	@echo "... src/renderer.o"
 	@echo "... src/renderer.i"
 	@echo "... src/renderer.s"

@@ -7,30 +7,14 @@
 #IncludeRegexTransform: 
 
 /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/boosters.h
-memory
--
-vector
--
-coordinate.h
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/coordinate.h
-
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/controller.cpp
-iostream
--
-controller.h
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/controller.h
-SDL.h
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/SDL.h
-snake.h
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/snake.h
+gameObjects.h
+/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/gameObjects.h
 
 /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/controller.h
 snake.h
 /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/snake.h
 
 /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/coordinate.h
-
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/fileUtils.h
 
 /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/game.cpp
 vector
@@ -66,27 +50,7 @@ obstacles.h
 boosters.h
 /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/boosters.h
 
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/main.cpp
-iostream
--
-controller.h
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/controller.h
-game.h
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/game.h
-renderer.h
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/renderer.h
-fileUtils.h
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/fileUtils.h
-
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/obstacles.cpp
-memory
--
-obstacles.h
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/obstacles.h
-coordinate.h
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/coordinate.h
-
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/obstacles.h
+/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/gameObjects.h
 memory
 -
 vector
@@ -94,19 +58,9 @@ vector
 coordinate.h
 /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/coordinate.h
 
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/renderer.cpp
-string
--
-renderer.h
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/renderer.h
-iostream
--
-SDL.h
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/SDL.h
-boosters.h
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/boosters.h
-obstacles.h
 /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/obstacles.h
+gameObjects.h
+/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/gameObjects.h
 
 /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/renderer.h
 vector
@@ -125,14 +79,6 @@ obstacles.h
 /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/obstacles.h
 boosters.h
 /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/boosters.h
-
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/snake.cpp
-cmath
--
-iostream
--
-snake.h
-/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/snake.h
 
 /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/snake.h
 vector

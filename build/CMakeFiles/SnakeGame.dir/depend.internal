@@ -5,6 +5,7 @@ CMakeFiles/SnakeGame.dir/src/boosters.cpp.o
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/boosters.cpp
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/boosters.h
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/coordinate.h
+ /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/gameObjects.h
 CMakeFiles/SnakeGame.dir/src/controller.cpp.o
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/controller.cpp
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/controller.h
@@ -65,6 +66,7 @@ CMakeFiles/SnakeGame.dir/src/game.cpp.o
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/coordinate.h
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/game.cpp
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/game.h
+ /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/gameObjects.h
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/obstacles.h
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/renderer.h
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/snake.h
@@ -116,12 +118,17 @@ CMakeFiles/SnakeGame.dir/src/game.cpp.o
  /usr/local/include/SDL2/SDL_video.h
  /usr/local/include/SDL2/begin_code.h
  /usr/local/include/SDL2/close_code.h
+CMakeFiles/SnakeGame.dir/src/gameObjects.cpp.o
+ /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/coordinate.h
+ /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/gameObjects.cpp
+ /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/gameObjects.h
 CMakeFiles/SnakeGame.dir/src/main.cpp.o
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/boosters.h
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/controller.h
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/coordinate.h
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/fileUtils.h
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/game.h
+ /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/gameObjects.h
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/main.cpp
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/obstacles.h
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/renderer.h
@@ -174,13 +181,10 @@ CMakeFiles/SnakeGame.dir/src/main.cpp.o
  /usr/local/include/SDL2/SDL_video.h
  /usr/local/include/SDL2/begin_code.h
  /usr/local/include/SDL2/close_code.h
-CMakeFiles/SnakeGame.dir/src/obstacles.cpp.o
- /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/coordinate.h
- /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/obstacles.cpp
- /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/obstacles.h
 CMakeFiles/SnakeGame.dir/src/renderer.cpp.o
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/boosters.h
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/coordinate.h
+ /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/gameObjects.h
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/obstacles.h
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/renderer.cpp
  /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/renderer.h

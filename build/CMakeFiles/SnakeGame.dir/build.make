@@ -138,18 +138,18 @@ CMakeFiles/SnakeGame.dir/src/fileUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SnakeGame.dir/src/fileUtils.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/fileUtils.cpp -o CMakeFiles/SnakeGame.dir/src/fileUtils.cpp.s
 
-CMakeFiles/SnakeGame.dir/src/obstacles.cpp.o: CMakeFiles/SnakeGame.dir/flags.make
-CMakeFiles/SnakeGame.dir/src/obstacles.cpp.o: ../src/obstacles.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SnakeGame.dir/src/obstacles.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SnakeGame.dir/src/obstacles.cpp.o -c /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/obstacles.cpp
+CMakeFiles/SnakeGame.dir/src/gameObjects.cpp.o: CMakeFiles/SnakeGame.dir/flags.make
+CMakeFiles/SnakeGame.dir/src/gameObjects.cpp.o: ../src/gameObjects.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SnakeGame.dir/src/gameObjects.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SnakeGame.dir/src/gameObjects.cpp.o -c /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/gameObjects.cpp
 
-CMakeFiles/SnakeGame.dir/src/obstacles.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SnakeGame.dir/src/obstacles.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/obstacles.cpp > CMakeFiles/SnakeGame.dir/src/obstacles.cpp.i
+CMakeFiles/SnakeGame.dir/src/gameObjects.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SnakeGame.dir/src/gameObjects.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/gameObjects.cpp > CMakeFiles/SnakeGame.dir/src/gameObjects.cpp.i
 
-CMakeFiles/SnakeGame.dir/src/obstacles.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SnakeGame.dir/src/obstacles.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/obstacles.cpp -o CMakeFiles/SnakeGame.dir/src/obstacles.cpp.s
+CMakeFiles/SnakeGame.dir/src/gameObjects.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SnakeGame.dir/src/gameObjects.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/src/gameObjects.cpp -o CMakeFiles/SnakeGame.dir/src/gameObjects.cpp.s
 
 CMakeFiles/SnakeGame.dir/src/boosters.cpp.o: CMakeFiles/SnakeGame.dir/flags.make
 CMakeFiles/SnakeGame.dir/src/boosters.cpp.o: ../src/boosters.cpp
@@ -172,7 +172,7 @@ SnakeGame_OBJECTS = \
 "CMakeFiles/SnakeGame.dir/src/renderer.cpp.o" \
 "CMakeFiles/SnakeGame.dir/src/snake.cpp.o" \
 "CMakeFiles/SnakeGame.dir/src/fileUtils.cpp.o" \
-"CMakeFiles/SnakeGame.dir/src/obstacles.cpp.o" \
+"CMakeFiles/SnakeGame.dir/src/gameObjects.cpp.o" \
 "CMakeFiles/SnakeGame.dir/src/boosters.cpp.o"
 
 # External object files for target SnakeGame
@@ -184,7 +184,7 @@ SnakeGame: CMakeFiles/SnakeGame.dir/src/controller.cpp.o
 SnakeGame: CMakeFiles/SnakeGame.dir/src/renderer.cpp.o
 SnakeGame: CMakeFiles/SnakeGame.dir/src/snake.cpp.o
 SnakeGame: CMakeFiles/SnakeGame.dir/src/fileUtils.cpp.o
-SnakeGame: CMakeFiles/SnakeGame.dir/src/obstacles.cpp.o
+SnakeGame: CMakeFiles/SnakeGame.dir/src/gameObjects.cpp.o
 SnakeGame: CMakeFiles/SnakeGame.dir/src/boosters.cpp.o
 SnakeGame: CMakeFiles/SnakeGame.dir/build.make
 SnakeGame: /usr/local/lib/libSDL2_ttf.so

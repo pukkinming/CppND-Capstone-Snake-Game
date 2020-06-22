@@ -4,6 +4,7 @@
 CMakeFiles/SnakeGame.dir/src/boosters.cpp.o: ../src/boosters.cpp
 CMakeFiles/SnakeGame.dir/src/boosters.cpp.o: ../src/boosters.h
 CMakeFiles/SnakeGame.dir/src/boosters.cpp.o: ../src/coordinate.h
+CMakeFiles/SnakeGame.dir/src/boosters.cpp.o: ../src/gameObjects.h
 
 CMakeFiles/SnakeGame.dir/src/controller.cpp.o: ../src/controller.cpp
 CMakeFiles/SnakeGame.dir/src/controller.cpp.o: ../src/controller.h
@@ -64,6 +65,7 @@ CMakeFiles/SnakeGame.dir/src/game.cpp.o: ../src/controller.h
 CMakeFiles/SnakeGame.dir/src/game.cpp.o: ../src/coordinate.h
 CMakeFiles/SnakeGame.dir/src/game.cpp.o: ../src/game.cpp
 CMakeFiles/SnakeGame.dir/src/game.cpp.o: ../src/game.h
+CMakeFiles/SnakeGame.dir/src/game.cpp.o: ../src/gameObjects.h
 CMakeFiles/SnakeGame.dir/src/game.cpp.o: ../src/obstacles.h
 CMakeFiles/SnakeGame.dir/src/game.cpp.o: ../src/renderer.h
 CMakeFiles/SnakeGame.dir/src/game.cpp.o: ../src/snake.h
@@ -116,11 +118,16 @@ CMakeFiles/SnakeGame.dir/src/game.cpp.o: /usr/local/include/SDL2/SDL_video.h
 CMakeFiles/SnakeGame.dir/src/game.cpp.o: /usr/local/include/SDL2/begin_code.h
 CMakeFiles/SnakeGame.dir/src/game.cpp.o: /usr/local/include/SDL2/close_code.h
 
+CMakeFiles/SnakeGame.dir/src/gameObjects.cpp.o: ../src/coordinate.h
+CMakeFiles/SnakeGame.dir/src/gameObjects.cpp.o: ../src/gameObjects.cpp
+CMakeFiles/SnakeGame.dir/src/gameObjects.cpp.o: ../src/gameObjects.h
+
 CMakeFiles/SnakeGame.dir/src/main.cpp.o: ../src/boosters.h
 CMakeFiles/SnakeGame.dir/src/main.cpp.o: ../src/controller.h
 CMakeFiles/SnakeGame.dir/src/main.cpp.o: ../src/coordinate.h
 CMakeFiles/SnakeGame.dir/src/main.cpp.o: ../src/fileUtils.h
 CMakeFiles/SnakeGame.dir/src/main.cpp.o: ../src/game.h
+CMakeFiles/SnakeGame.dir/src/main.cpp.o: ../src/gameObjects.h
 CMakeFiles/SnakeGame.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/SnakeGame.dir/src/main.cpp.o: ../src/obstacles.h
 CMakeFiles/SnakeGame.dir/src/main.cpp.o: ../src/renderer.h
@@ -174,12 +181,9 @@ CMakeFiles/SnakeGame.dir/src/main.cpp.o: /usr/local/include/SDL2/SDL_video.h
 CMakeFiles/SnakeGame.dir/src/main.cpp.o: /usr/local/include/SDL2/begin_code.h
 CMakeFiles/SnakeGame.dir/src/main.cpp.o: /usr/local/include/SDL2/close_code.h
 
-CMakeFiles/SnakeGame.dir/src/obstacles.cpp.o: ../src/coordinate.h
-CMakeFiles/SnakeGame.dir/src/obstacles.cpp.o: ../src/obstacles.cpp
-CMakeFiles/SnakeGame.dir/src/obstacles.cpp.o: ../src/obstacles.h
-
 CMakeFiles/SnakeGame.dir/src/renderer.cpp.o: ../src/boosters.h
 CMakeFiles/SnakeGame.dir/src/renderer.cpp.o: ../src/coordinate.h
+CMakeFiles/SnakeGame.dir/src/renderer.cpp.o: ../src/gameObjects.h
 CMakeFiles/SnakeGame.dir/src/renderer.cpp.o: ../src/obstacles.h
 CMakeFiles/SnakeGame.dir/src/renderer.cpp.o: ../src/renderer.cpp
 CMakeFiles/SnakeGame.dir/src/renderer.cpp.o: ../src/renderer.h

@@ -1,24 +1,24 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d2048/fast && /usr/bin/make  -f CMakeFiles/cmTC_d2048.dir/build.make CMakeFiles/cmTC_d2048.dir/build
+Run Build Command(s):/usr/bin/make cmTC_d8a60/fast && /usr/bin/make  -f CMakeFiles/cmTC_d8a60.dir/build.make CMakeFiles/cmTC_d8a60.dir/build
 make[1]: Entering directory '/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d2048.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_d2048.dir/src.c.o   -c /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_d2048
-/opt/cmake-3.16.6-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2048.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_d2048.dir/src.c.o  -o cmTC_d2048 
-CMakeFiles/cmTC_d2048.dir/src.c.o: In function `main':
+Building C object CMakeFiles/cmTC_d8a60.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_d8a60.dir/src.c.o   -c /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d8a60
+/opt/cmake-3.16.6-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8a60.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_d8a60.dir/src.c.o  -o cmTC_d8a60 
+CMakeFiles/cmTC_d8a60.dir/src.c.o: In function `main':
 src.c:(.text+0x3e): undefined reference to `pthread_create'
 src.c:(.text+0x4a): undefined reference to `pthread_detach'
 src.c:(.text+0x5b): undefined reference to `pthread_join'
 src.c:(.text+0x6f): undefined reference to `pthread_atfork'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_d2048.dir/build.make:89: recipe for target 'cmTC_d2048' failed
-make[1]: *** [cmTC_d2048] Error 1
+CMakeFiles/cmTC_d8a60.dir/build.make:89: recipe for target 'cmTC_d8a60' failed
+make[1]: *** [cmTC_d8a60] Error 1
 make[1]: Leaving directory '/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-Makefile:124: recipe for target 'cmTC_d2048/fast' failed
-make: *** [cmTC_d2048/fast] Error 2
+Makefile:124: recipe for target 'cmTC_d8a60/fast' failed
+make: *** [cmTC_d8a60/fast] Error 2
 
 
 Source file was:
@@ -44,20 +44,20 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_5becc/fast && /usr/bin/make  -f CMakeFiles/cmTC_5becc.dir/build.make CMakeFiles/cmTC_5becc.dir/build
+Run Build Command(s):/usr/bin/make cmTC_e0839/fast && /usr/bin/make  -f CMakeFiles/cmTC_e0839.dir/build.make CMakeFiles/cmTC_e0839.dir/build
 make[1]: Entering directory '/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5becc.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5becc.dir/CheckFunctionExists.c.o   -c /opt/cmake-3.16.6-Linux-x86_64/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_5becc
-/opt/cmake-3.16.6-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5becc.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_5becc.dir/CheckFunctionExists.c.o  -o cmTC_5becc  -lpthreads 
+Building C object CMakeFiles/cmTC_e0839.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e0839.dir/CheckFunctionExists.c.o   -c /opt/cmake-3.16.6-Linux-x86_64/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e0839
+/opt/cmake-3.16.6-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0839.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_e0839.dir/CheckFunctionExists.c.o  -o cmTC_e0839  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_5becc.dir/build.make:89: recipe for target 'cmTC_5becc' failed
-make[1]: *** [cmTC_5becc] Error 1
+CMakeFiles/cmTC_e0839.dir/build.make:89: recipe for target 'cmTC_e0839' failed
+make[1]: *** [cmTC_e0839] Error 1
 make[1]: Leaving directory '/home/frank/Dropbox/Project/udacity_cppnd/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-Makefile:124: recipe for target 'cmTC_5becc/fast' failed
-make: *** [cmTC_5becc/fast] Error 2
+Makefile:124: recipe for target 'cmTC_e0839/fast' failed
+make: *** [cmTC_e0839/fast] Error 2
 
 
 
